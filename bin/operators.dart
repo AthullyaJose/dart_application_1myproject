@@ -27,13 +27,11 @@ void main() {
   print('a <= b -> ${a <= b}');
   print('a == b -> ${a == b}');
   print('a != b -> ${a != b}');
-}
 
-///condition operator && || !
-void main(){
-String username = "abc123";
-String password = "admin";
-int otp = 1234;
-print(username == "abc123" && password == "admin" && == 1234);
-print(username || "abc123" && password || "admin" && || 1234);
+  ///condition operator && || !
+
+  String username = "abc123";
+  String password = "admin";
+  int otp = 1234;
+  print(username == "abc123" && password == "admin");
 }
